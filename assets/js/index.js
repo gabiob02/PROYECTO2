@@ -111,7 +111,7 @@ function mostrarPrendas() {
                                   <button class="btn btn-dark w-100 mt-2" type="button" id="editar-${index}" onclick="editarPrenda(${index})">Editar</button>
                                </div>
                                <div class="col">
-                                  <button class="btn btn-secondary w-100 mt-2" type="button" id="eliminar-${index}" onclick="eliminarPrenda(${index})">Eliminar</button>
+                                  <button class="btn btn-warning w-100 mt-2" type="button" id="eliminar-${index}" onclick="eliminarPrenda(${index})">Eliminar</button>
                                </div>
                             </div>
                          </div>
